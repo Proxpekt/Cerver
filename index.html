@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Custom Server Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: #fff;
+        }
+        header {
+            background: rgba(0,0,0,0.6);
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #ffd369;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 40px;
+            text-align: center;
+        }
+        .card {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            margin: 20px auto;
+            width: 300px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: rgba(0,0,0,0.6);
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Static Website</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Hello from Aayush Saxena!</h2>
+        <div class="card">
+            <h3>Something</h3>
+            <p>This page is being served by a custom HTTP server in C.</p>
+        </div>
+        <div class="card">
+            <h3>Anything</h3>
+            <p>I can add more HTML, CSS, or even JS and it will still work!</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 My Server | Powered by Kevin De Bruyne
+    </footer>
+</body>
+</html>

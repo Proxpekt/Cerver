@@ -10,8 +10,8 @@ A simple web server built from scratch in **C** as part of my hobby experiments 
 ## Getting Started
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
-   cd <your-repo-name>
+   git clone https://github.com/<your-username>/<Cerver>.git
+   cd <Cerver>
    ```
 2. Compile the server:
    ```bash
